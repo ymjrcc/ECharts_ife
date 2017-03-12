@@ -8,7 +8,7 @@ class Lesson2 extends Component{
         var myChart = echarts.init(this.refs.lesson2);
         var option = {
             title: {
-                text: 'LESSON 2 - 安远一中历年一本率',
+                text: '安远一中历年一本率',
                 subtext: '数据是我瞎编的'
             },
             tooltip: {
