@@ -7,7 +7,7 @@ class Home extends Component{
         return (
             <div className={style.home}>
                 <div className={style.menu}>
-                    <Link to="/lesson1">lesson1</Link>
+                    <Link to="/lesson1">lesson 1</Link>
                 </div>
                 {this.props.children}
             </div>
