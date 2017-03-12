@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import echarts from 'echarts'
 import style from '../css/home.css'
 
-class lesson1 extends Component{
+class Lesson1 extends Component{
 
     componentDidMount(){
         var myChart = echarts.init(this.refs.lesson1);
@@ -49,4 +49,4 @@ class lesson1 extends Component{
     }
 }
 
-export default lesson1;
+export default Lesson1;

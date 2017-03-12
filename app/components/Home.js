@@ -8,6 +8,7 @@ class Home extends Component{
             <div className={style.home}>
                 <div className={style.menu}>
                     <Link to="/lesson1">lesson 1</Link>
+                    <Link to="/lesson2">lesson 2</Link>
                 </div>
                 {this.props.children}
             </div>

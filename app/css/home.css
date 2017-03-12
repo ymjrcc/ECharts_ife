@@ -5,7 +5,11 @@
     font-size: 1.6rem;
     margin-bottom: 20px;
 }
-.lesson1{
+.menu a{
+    margin-right: 10px;
+}
+.lesson1,
+.lesson2{
     width: 600px;
     height:400px;
 }
