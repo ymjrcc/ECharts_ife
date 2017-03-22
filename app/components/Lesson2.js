@@ -61,7 +61,7 @@ class Lesson2 extends Component{
     }
 
     render(){
-        return <div className={style.lesson2} ref="lesson2"></div>
+        return <div className={style.lesson} ref="lesson2"></div>
     }
 }
 
